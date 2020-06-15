@@ -1,0 +1,6 @@
+csa_guzzle:
+    profiler: '%kernel.debug%'
+    clients:
+      doctissimo_api:
+        config:
+          base_uri: '%env(DOCTISSIMO_API_URL)%'
